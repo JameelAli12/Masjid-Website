@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Ruhani Masjid Ahiyapur Website</title>
+    </head>
+    <body>
+        <header>
+            <div id="name">RUHANI MASJID</div>
+                <div id="pic"><img id="pics" src="practice/IMG_20230524_160005(1).jpg" name="1"></div>   
+        </header>
+        <main id="span">
+
+            <div id="span1"><h4>Members of the Masjid</h4>
+                <ul>
+                    <li>Imam: N/A</li>
+                    <li>Ameer: Abdul Gaffoor</li>
+                    <li>Mohammad Rafi</li>
+                    <li>Anwar Ali</li>
+                    <li>Jamaldin</li>
+                </ul>
+            </div>
+            <div id="span2">
+                <h4>Prayer Times</h4>
+                <table>
+                    <tr>
+                        <th>Salah</th>
+                        <th>Azan</th>
+                        <th>Jamaat</th>
+                    </tr>
+                    <tr>
+                        <td>Fajr</td>
+                        <td>5:45</td>
+                        <td>6:15</td>
+                    </tr>
+                    <tr>
+                        <td>Zuhr</td>
+                        <td>13:30</td>
+                        <td>13:45</td>
+                    </tr>
+                    <tr>
+                        <td>Asar</td>
+                        <td>16:00</td>
+                        <td>16:15</td>
+                    </tr>
+                    <tr>
+                        <td>Maghrib</td>
+                        <td>17:33</td>
+                        <td>17:35</td>
+                    </tr>
+                    <tr>
+                        <td>Isha</td>
+                        <td>19:45</td>
+                        <td>20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Jumah</td>
+                        <td>13:00</td>
+                        <td>13:30</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="span3"><h4>Goals of the Masjid</h4>
+                <ul>
+                    <li>Ba-Jamaat Namaz ada karna</li>
+                    <li>Logon ko ek karna</li>
+                    <li>Dawat ke kaam me sath dena</li>
+                    <li>Masjid Abaad krna </li>
+                </ul>
+            </div>
+        </main>
+        <footer id="foot">
+            <div id="contact">
+                <h4>Contact Us</h4>
+                
+                <li>9501993614</li>
+                <li>8968165380</li>
+                <li>9815761479</li>
+                
+            </div>
+            <div id="email">
+                <a href="mailto:jameelali0101@gmail.com"><h6>jameelali0101@gmail.com</h6></a>
+            </div>
+            <div id="address">
+                <p>Ruhani Masjid Ahiyapur<br>Opposite of Valmik Mohallah<br>Near a big white house and a tree</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d330.3683341943733!2d75.62311106532236!3d31.683723161347224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391ba99544cb3c87%3A0xa2a1529bc1c15967!2sRoohani%20masjid%20ahiyapur!5e1!3m2!1sen!2sin!4v1762707952428!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </footer>
+
+        <style>
+            
+            html {
+                font-family:'Times New Roman', Times, serif;
+                height: 100vh;
+                background-color: rgb(34, 36, 34);
+            }
+            #name {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 100px;
+                text-align: center;
+                
+                color: #bada55;
+                text-shadow: 1px 1px 0 #b9b4b4, 2px 2px 5px #747070;
+                width: 100%;
+            }
+
+            #pic {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #pics {
+                width: 90%;
+                height: 100vh;
+                padding: 15px;
+                border-radius: 30px;
+                opacity: 0;
+                transition: opacity 1s ease-in-out;
+            }
+             #pics.show {
+                opacity: 1;
+            }
+            #span {
+                padding: 15px;
+                display: flex;
+                justify-content: center;
+                color: rgba(255, 192, 203, 0.562);  
+                font-size: 20px;
+                line-height: 30px;
+                align-items: flex-start;
+                flex: 1 0 auto;
+                gap: 20px;
+            }
+            #span1 {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+            }
+            #span2 {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+            }
+            #span3 {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+            }
+            h4 {
+                color: #bada55
+            }
+
+            #contact {
+                color: rgb(0, 255, 0);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                padding-bottom: 20px;
+            }
+             #email {
+                background-color: rgb(255, 255, 255);
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            h6 {
+                margin: 0;
+                color: blue;
+                font-size: 15px;
+            }
+            #address {
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                flex-direction: column;
+                line-height: 30px;
+                color: rgba(255, 255, 255, 0.623);
+                background-color: black;
+                text-align: center;
+            }
+
+            #foot {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+            
+            @media (max-width: 768px) {
+                #span {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                #pics {
+                    height: auto;
+                    width: 100%;
+                }
+            }
+            table {
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 5px;
+}
+table {
+  width: 100%;
+}
+
+            
+
+        </style>
+
+        <script>
+            const links = ['practice/IMG_20230524_160005(1).jpg','practice/IMG_20220407_195427.jpg','practice/IMG_20220407_195431.jpg','practice/IMG_20220407_195450.jpg','practice/IMG_20220407_195453.jpg','practice/IMG_20220407_195744.jpg']
+            let index = 0;
+            const pic = document.getElementById("pics")
+
+            setInterval(() => {
+      index = (index + 1) % links.length;
+      pic.classList.remove("show");
+      setTimeout(() => {
+        pic.src = links[index];
+        pic.classList.add("show");
+      }, 500);
+    }, 2000);
+        </script>
+    </body>
+</html>
